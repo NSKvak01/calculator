@@ -103,7 +103,7 @@ for (const op of buttonfun){
                 operation = '÷'
                 screen.innerText += '÷'
             } 
-        } else if (firstNumber !=='' && operation !==''){
+        } else if (firstNumber !=='' && secondNumber !=='' && operation !==''){
             calcResult()
             if (op.innerText === '+'){
                 operation = '+'
@@ -117,9 +117,7 @@ for (const op of buttonfun){
             } else if (op.innerText === '÷'){
                 operation = '÷'
                 screen.innerText += '÷'
-            } 
-
-
+            }
         }
     })
 }
