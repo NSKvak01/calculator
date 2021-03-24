@@ -84,8 +84,9 @@
 }
 #screen{
     background-color: rgb(41,50,65);
-    width:170px;
+    width:150px;
     height:40px;
+    
 }
 
 #border{
@@ -95,9 +96,9 @@
     align-items: center;
     background-color: white;
     border-radius: 24px;
-    padding: 15px;
-    margin-left: 200px;
-    margin-right: 200px;
+    padding: 20px;
+    margin-left: 405px;
+    margin-right: 405px;
 }
 
 body{
