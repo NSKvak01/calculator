@@ -2,6 +2,7 @@
     color:white;
     font-size: 16px;
     font-family: 'Noto Sans KR', sans-serif;
+    
 }
 
 .number{
@@ -12,7 +13,12 @@
     align-items: center;
     border-radius: 8px;
     margin:4px;
+    box-shadow: 1px 1px grey;
 }
+.number:hover{
+    background-color: rgb(8, 138, 213);
+}
+
 #numbers{
     display: flex;
     flex-direction: column;
@@ -44,7 +50,13 @@
     border-radius: 8px;
     margin:4px;
     margin-top: 10px;
+    box-shadow: 1px 1px grey;
 }
+
+.buttonfun:hover{
+    background-color: rgb(0, 23, 67)
+}
+
 #functions{
     display:flex;
     justify-content: center;
@@ -58,7 +70,13 @@
     padding-right: 12px;
     border-radius: 8px;
     margin:4px;
+    box-shadow: 1px 1px grey;
 }
+
+#result:hover{
+    background-color: rgb(189, 38, 0);
+}
+
 #down{
     display:flex;
     justify-content: center;
@@ -86,6 +104,11 @@
     background-color: rgb(41,50,65);
     width:150px;
     height:40px;
+    color:white;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
     
 }
 
@@ -102,4 +125,9 @@
 
 body{
     background-color:rgb(41,50,65); ;
+}
+
+#switch{
+    width:10px;
+
 }
